@@ -1,0 +1,9 @@
+{
+  "apps" : [{
+    "script"    : "next start -p 8000",
+    "name" : "phoenix",
+    "log_date_format" : "YYYY-DD-MM HH:mm",
+    "watch"       : true,
+    "ignore_watch": ["node_modules"]
+  }]
+}
